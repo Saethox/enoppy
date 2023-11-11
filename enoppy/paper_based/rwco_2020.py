@@ -1083,7 +1083,7 @@ class ThreeBarTrussDesignProblem(Engineer):
         self._n_objs = 1
         self._n_ineq_cons = 3
         self._n_cons = 3
-        self._bounds = np.array([(0., 1.), (0., 1.)])
+        self._bounds = np.array([(1e-9, 1.), (1e-9, 1.)])
         self.ll = 100
         self.PP = 2
         self.xichma = 2
